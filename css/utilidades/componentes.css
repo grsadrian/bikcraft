@@ -1,5 +1,4 @@
 .container {
-  margin-bottom: 40px;
   box-sizing: border-box;
   max-width: 1200px;
   padding-left: 20px;
@@ -31,7 +30,7 @@
 
 .botao.secundario:hover {
   background: var(--cor-9);
-} 
+}
 
 @media (max-width: 600px) {
   .botao {
