@@ -20,7 +20,8 @@
 
 .contato-formulario {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/dec/top-right.svg") no-repeat top
+    right 20px;
 }
 
 .contato-dados h2 {
@@ -70,6 +71,10 @@
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
+  }
+
+  .contato-dados {
+    background: var(--cor-12);
   }
 
   .contato-dados,
