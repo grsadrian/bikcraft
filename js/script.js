@@ -12,12 +12,13 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 
 // Ativar itens do orçamento
+const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
-  const elemento = document.getElementById()
-  console.log(parametro);
+  const elemento = document.getElementById(parametro);
+  if (elemento) {
+    elemento.checked = true;
+  }
 }
 
-const parametros = new URLSearchParams(location.search);
 parametros.forEach(ativarProduto);
-// console.log(parametros);
